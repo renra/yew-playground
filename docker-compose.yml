@@ -6,6 +6,7 @@ services:
     command: trunk serve
     volumes:
       - ./src:/usr/src/app/src
+      - ./Cargo.toml:/usr/src/app/Cargo.toml
       - ./index.html:/usr/src/app/index.html
     ports:
       - 3000:8080
