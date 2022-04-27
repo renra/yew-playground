@@ -1,0 +1,13 @@
+div.web_workers {
+  div.animation_wrapper {
+    position: relative;
+
+    div.animated {
+      height: 100px;
+      width: 100px;
+      background-color: rgba(100, 100, 200, 1);
+      position: absolute;
+      top: 0px;
+    }
+  }
+}
